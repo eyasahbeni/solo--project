@@ -1,0 +1,80 @@
+
+    .page {
+        width: 100%;  
+        height: 100%; 
+        background-position: center;
+        color: rgb(233, 197, 197);
+        text-align: center;
+        position: absolute;
+      
+    }
+  
+    #welcome-page {
+        background-image: url('../imagescoll/481-4816161_question-mark-anime-png-download-anime-with-question.png'); 
+    }
+    
+    #quiz-page {
+        background-image: url('../imagescoll/anime-character-with-question-marks-his-face-generative-ai_1028863-20096.avif'); 
+    }
+
+    .mydiv {
+        background: rgba(70, 100, 200, 0.9); /* Semi-transparent white background */
+        border-radius: 10px; /* Rounded corners */
+        padding: 20px; /* Padding inside the card */
+        margin: 20px auto; /* Center the card horizontally */
+        max-width: 80%; /* Limit the width of the card */
+        box-shadow: 0 4px 8px rgba(181, 17, 102, 0.1); /* Shadow for depth */
+    }
+    
+   
+     h2, p {
+        margin: 0;
+        padding: 10px
+    }
+    
+    
+    .answer {
+        background: #8554d5;
+        border-radius: 5px;
+        padding: 10px;
+        margin: 5px 0; 
+        transition: background 0.3s ease;
+    }
+
+    .answer.correct {
+        background-color: #04fd0c; 
+        color: #3bf707; 
+    }
+    
+    
+    .answer.incorrect {
+        background-color: #fd1303; 
+        color: #c66060;
+    }
+    
+   
+    .image-option {
+        width: calc(33.333% - 10px);
+        margin: 5px; 
+        transition: transform 0.3s ease; 
+        cursor: pointer; 
+    }
+    
+ 
+    .image-option:hover {
+        transform: scale(1.1);
+    }
+    
+ #start-button {
+        font-size: 20px;
+        width: 50%;
+        color: rgb(18, 83, 223);
+        transition: background-color 0.3s
+ }
+ h1{
+        font-size: 50px; 
+        color: #f20909;  
+        text-align: center;  
+        text-decoration: underline
+ }
+  
