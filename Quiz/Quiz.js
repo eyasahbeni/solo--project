@@ -52,7 +52,7 @@ var questions = [
   {
     type: "image",
     question: "chose the correct image",
-    // image: "path/to/france-image.jpg",
+  
     options: [
       { src: "../imagescoll/imageodd1.png", answer: true },
       { src: "../imagescoll/imageodd2.png", answer: false },
